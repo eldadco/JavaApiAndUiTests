@@ -5,4 +5,4 @@ Develop E2E automation project in Java using selenium and testNg libraries
 
 Please run the src/main/java/RunFile/SeleniumSuite.xml file. 
 
-For the report execute in the terminal the following command: allure serve 
+To view the report execute in the terminal the following command: allure serve 
