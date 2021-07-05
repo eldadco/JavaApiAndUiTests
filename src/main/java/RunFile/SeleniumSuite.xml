@@ -1,0 +1,18 @@
+<suite name="Automation - Ui and Api assignment" verbose="1">
+    <parameter name="runner" value="local"/> <!-- local/remote -->
+    <parameter name="headless" value="false"/>
+    <test name="UI tests - test project web site">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="Tests.LoginTests"/>
+            <class name = "Tests.TestFormTests"/>
+
+        </classes>
+    </test>
+
+    <test name = "User posts - Api tests">
+        <classes>
+            <class name = "Tests.ApiTests"/>
+        </classes>
+    </test>
+</suite>
